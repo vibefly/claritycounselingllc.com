@@ -3,190 +3,301 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coming Soon — Clarity Counseling LLC</title>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Inter:wght@300;400;500&display=swap');
-
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-    :root {
-      --bg:              #FAF9F7;
-      --bg-alt:          #F2EEE9;
-      --accent-primary:  #7C6E64;
-      --accent-light:    #EDE6DE;
-      --accent-secondary:#B5A89A;
-      --text-primary:    #2C2825;
-      --text-secondary:  #7C6E64;
-    }
-
-    html, body {
-      height: 100%;
-    }
-
-    body {
-      font-family: 'Inter', system-ui, sans-serif;
-      background: var(--bg);
-      color: var(--text-primary);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      padding: 2rem;
-      overflow: hidden;
-    }
-
-    /* Background shapes */
-    body::before,
-    body::after {
-      content: '';
-      position: fixed;
-      border-radius: 50%;
-      pointer-events: none;
-    }
-    body::before {
-      width: 600px; height: 600px;
-      background: radial-gradient(circle, var(--accent-light) 0%, transparent 70%);
-      top: -180px; right: -120px;
-      opacity: 0.6;
-    }
-    body::after {
-      width: 400px; height: 400px;
-      background: radial-gradient(circle, var(--accent-secondary) 0%, transparent 70%);
-      bottom: -140px; left: -100px;
-      opacity: 0.2;
-    }
-
-    .card {
-      position: relative;
-      z-index: 1;
-      text-align: center;
-      max-width: 520px;
-      width: 100%;
-      padding: 3.5rem 3rem;
-      background: rgba(255,255,255,0.7);
-      backdrop-filter: blur(16px);
-      -webkit-backdrop-filter: blur(16px);
-      border: 1px solid var(--accent-light);
-      border-radius: 28px;
-      box-shadow: 0 8px 40px rgba(44,40,37,0.08);
-    }
-
-    .emblem {
-      width: 64px;
-      height: 64px;
-      border-radius: 50%;
-      background: var(--accent-light);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: 0 auto 1.75rem;
-    }
-
-    .emblem svg {
-      width: 28px;
-      height: 28px;
-      stroke: var(--accent-primary);
-      fill: none;
-      stroke-width: 1.5;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-    }
-
-    .label {
-      font-size: 0.68rem;
-      font-weight: 600;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      color: var(--accent-primary);
-      margin-bottom: 1rem;
-    }
-
-    h1 {
-      font-family: 'Cormorant Garamond', Georgia, serif;
-      font-size: clamp(2rem, 6vw, 3rem);
-      font-weight: 300;
-      line-height: 1.15;
-      color: var(--text-primary);
-      margin-bottom: 0.3rem;
-    }
-
-    h1 em {
-      font-style: italic;
-      color: var(--accent-primary);
-    }
-
-    .business-name {
-      font-family: 'Cormorant Garamond', Georgia, serif;
-      font-size: clamp(1.1rem, 3vw, 1.4rem);
-      font-style: italic;
-      font-weight: 400;
-      color: var(--text-secondary);
-      margin-bottom: 1.5rem;
-    }
-
-    .divider {
-      width: 48px;
-      height: 1px;
-      background: var(--accent-secondary);
-      margin: 1.5rem auto;
-      opacity: 0.6;
-    }
-
-    p {
-      font-size: 0.95rem;
-      line-height: 1.8;
-      color: var(--text-secondary);
-      max-width: 380px;
-      margin-inline: auto;
-    }
-
-    .dots {
-      display: flex;
-      justify-content: center;
-      gap: 0.5rem;
-      margin-top: 2.5rem;
-    }
-
-    .dot {
-      width: 7px;
-      height: 7px;
-      border-radius: 50%;
-      background: var(--accent-secondary);
-      animation: pulse 1.6s ease-in-out infinite;
-    }
-    .dot:nth-child(2) { animation-delay: 0.3s; }
-    .dot:nth-child(3) { animation-delay: 0.6s; }
-
-    @keyframes pulse {
-      0%, 100% { opacity: 0.3; transform: scale(1); }
-      50%       { opacity: 1;   transform: scale(1.25); }
-    }
-
-    @media (max-width: 480px) {
-      .card { padding: 2.5rem 1.75rem; }
-    }
-  </style>
+  <title>Therapy Practice</title>
+  <meta name="description" content="">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 </head>
 <body>
-  <div class="card">
-    <div class="emblem">
-      <!-- heart-pulse icon -->
-      <svg viewBox="0 0 24 24">
-        <path d="M3.34 7a6 6 0 0 1 10.66 0M8 13l2-3 2 4 2-2h2"/>
-        <path d="M20.66 7A6 6 0 0 1 12 19.66 6 6 0 0 1 3.34 7"/>
-      </svg>
+
+  <!-- ─── Navigation ─────────────────────────────────────────────────────── -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="logo" href="/">
+        <span class="logo-name" data-content="logo.name">Practice</span><span class="logo-tld" data-content="logo.tld">.care</span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul data-content-nav></ul>
+      </nav>
+      <a class="btn btn--primary header-cta" href="#contact" data-content="hero.ctaText">Book a Session</a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
     </div>
-    <p class="label">Coming Soon</p>
-    <h1>Something <em>healing</em><br>is on the way</h1>
-    <div class="business-name">Clarity Counseling LLC</div>
-    <div class="divider"></div>
-    <p>A new practice website is being thoughtfully prepared. Please check back soon — or reach out directly to schedule an appointment.</p>
-    <div class="dots">
-      <div class="dot"></div>
-      <div class="dot"></div>
-      <div class="dot"></div>
+  </header>
+
+  <!-- ─── Mobile Drawer ──────────────────────────────────────────────────── -->
+  <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+    <div class="mobile-drawer__inner">
+      <button class="mobile-drawer__close" aria-label="Close menu">&times;</button>
+      <nav>
+        <ul class="mobile-nav-list" data-content-nav></ul>
+      </nav>
+      <div class="mobile-drawer__cta">
+        <a class="btn btn--primary" href="#contact" data-content="hero.ctaText">Book a Session</a>
+      </div>
     </div>
   </div>
+  <div class="mobile-drawer__overlay" id="drawer-overlay"></div>
+
+  <main>
+
+    <!-- ─── Hero ─────────────────────────────────────────────────────────── -->
+    <section class="hero" id="home">
+      <div class="hero__bg-shapes">
+        <div class="shape shape--1"></div>
+        <div class="shape shape--2"></div>
+        <div class="shape shape--3"></div>
+      </div>
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="hero__label" data-content="hero.label">Licensed Therapist</p>
+          <h1 class="hero__title" data-content="hero.title">Find Your Path to Healing</h1>
+          <p class="hero__subtext" data-content="hero.subtext">A calm, confidential space where you can explore your thoughts and feelings at your own pace.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#contact" data-content="hero.ctaText">Book a Session</a>
+            <a class="btn btn--ghost" href="#about" data-content="hero.ctaSecondaryText">Learn More</a>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <div class="hero__image-frame">
+            <div class="hero__image-placeholder">
+              <i data-lucide="heart-pulse" width="64" height="64"></i>
+            </div>
+          </div>
+          <div class="hero__badge hero__badge--1">
+            <i data-lucide="shield-check" width="18" height="18"></i>
+            <span>Licensed &amp; Certified</span>
+          </div>
+          <div class="hero__badge hero__badge--2">
+            <i data-lucide="calendar" width="18" height="18"></i>
+            <span>Online &amp; In-Person</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── Trust Bar ──────────────────────────────────────────────────────── -->
+    <section class="trust-bar">
+      <div class="container trust-bar__inner">
+        <div class="trust-item">
+          <i data-lucide="award" width="22" height="22"></i>
+          <span>Board Certified</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <i data-lucide="users" width="22" height="22"></i>
+          <span>500+ Clients Helped</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <i data-lucide="clock" width="22" height="22"></i>
+          <span>10+ Years Experience</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <i data-lucide="lock" width="22" height="22"></i>
+          <span>Fully Confidential</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── Dynamic Sections ────────────────────────────────────────────── -->
+    <div id="sections-container"></div>
+
+    <!-- ─── Contact Section ─────────────────────────────────────────────── -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="contact-grid">
+
+          <!-- Info -->
+          <div class="contact-info">
+            <p class="section__label" data-content="contact.heading">Book a Session</p>
+            <h2 class="section-heading contact-info__heading" data-content="contact.subheading">Ready to Begin Your Journey?</h2>
+            <p class="contact-info__body">Reaching out is the first and bravest step. Fill in the form and I'll be in touch within one business day to schedule your free 15-minute consultation.</p>
+
+            <ul class="contact-details">
+              <li>
+                <span class="contact-icon"><i data-lucide="phone" width="18" height="18"></i></span>
+                <a data-content-phone href="#" class="contact-link"></a>
+              </li>
+              <li>
+                <span class="contact-icon"><i data-lucide="mail" width="18" height="18"></i></span>
+                <a data-content-email href="#" class="contact-link"></a>
+              </li>
+              <li>
+                <span class="contact-icon"><i data-lucide="map-pin" width="18" height="18"></i></span>
+                <span data-content="business.address"></span>
+              </li>
+            </ul>
+
+            <div class="contact-hours" data-content-list="contact.hours"></div>
+
+            <div class="contact-areas">
+              <p class="contact-areas__label">Serving:</p>
+              <p data-content-areas-text></p>
+            </div>
+          </div>
+
+          <!-- Form -->
+          <div class="contact-form-wrap">
+            <div class="form-card">
+              <div id="form-success" class="form-success" hidden>
+                <div class="form-success__icon"><i data-lucide="check-circle" width="48" height="48"></i></div>
+                <h3 class="form-success__heading" data-content="form.thankYouHeading">Message Sent</h3>
+                <p class="form-success__message" data-content="form.thankYouMessage">Thank you for reaching out.</p>
+                <p class="form-success__sub" data-content="form.thankYouSubtext">I'll be in touch shortly.</p>
+              </div>
+              <form id="contact-form" class="contact-form" novalidate>
+                <div id="form-fields-placeholder"></div>
+                <button type="submit" class="btn btn--primary btn--full" data-content="form.submitLabel">Send Message</button>
+                <p class="form-note" id="form-status"></p>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ─── Footer ─────────────────────────────────────────────────────────── -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a class="logo logo--footer" href="/">
+          <span class="logo-name" data-content="logo.name">Practice</span><span class="logo-tld" data-content="logo.tld">.care</span>
+        </a>
+        <p class="footer-about" data-content="footer.about">A safe space for healing and growth.</p>
+      </div>
+      <div class="footer-nav">
+        <p class="footer-nav__label">Navigation</p>
+        <ul class="footer-nav__list" data-content-nav></ul>
+      </div>
+      <div class="footer-services">
+        <p class="footer-nav__label">Services</p>
+        <ul data-content-footer-services></ul>
+      </div>
+      <div class="footer-contact">
+        <p class="footer-nav__label">Contact</p>
+        <a data-content-phone href="#" class="footer-contact__link"></a>
+        <a data-content-email href="#" class="footer-contact__link"></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p data-content-copyright></p>
+        <p class="footer-disclaimer">This website is for informational purposes only and does not constitute medical advice.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ─── Scripts ────────────────────────────────────────────────────────── -->
+  <script>
+    // Init Lucide icons
+    document.addEventListener('DOMContentLoaded', () => {
+      if (window.lucide) lucide.createIcons();
+    });
+    window.addEventListener('load', () => {
+      if (window.lucide) lucide.createIcons();
+    });
+
+    // Mobile nav toggle
+    const toggle = document.querySelector('.nav-toggle');
+    const drawer = document.getElementById('mobile-drawer');
+    const overlay = document.getElementById('drawer-overlay');
+    const closeBtn = document.querySelector('.mobile-drawer__close');
+
+    function openDrawer() {
+      drawer.removeAttribute('aria-hidden');
+      document.body.classList.add('drawer-open');
+      toggle.setAttribute('aria-expanded', 'true');
+    }
+    function closeDrawer() {
+      drawer.setAttribute('aria-hidden', 'true');
+      document.body.classList.remove('drawer-open');
+      toggle.setAttribute('aria-expanded', 'false');
+    }
+    toggle && toggle.addEventListener('click', openDrawer);
+    closeBtn && closeBtn.addEventListener('click', closeDrawer);
+    overlay && overlay.addEventListener('click', closeDrawer);
+    drawer && drawer.querySelectorAll('a').forEach(a => a.addEventListener('click', closeDrawer));
+
+    // Smooth scroll offset for fixed header
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          const offset = 80;
+          const top = target.getBoundingClientRect().top + window.scrollY - offset;
+          window.scrollTo({ top, behavior: 'smooth' });
+        }
+      });
+    });
+
+    // Header scroll shadow
+    const header = document.querySelector('.site-header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 20);
+    }, { passive: true });
+
+    // Form submission
+    const form = document.getElementById('contact-form');
+    const formSuccess = document.getElementById('form-success');
+    const formStatus = document.getElementById('form-status');
+
+    if (form) {
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const btn = form.querySelector('button[type="submit"]');
+        btn.disabled = true;
+        btn.textContent = 'Sending…';
+        formStatus.textContent = '';
+
+        const cfg = window.__FORM_CONFIG || {};
+
+        try {
+          const data = Object.fromEntries(new FormData(form));
+          const res = await fetch('/api/submit', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(data),
+          });
+          const json = await res.json();
+          if (json.ok) {
+            form.hidden = true;
+            formSuccess.hidden = false;
+            if (window.lucide) lucide.createIcons();
+          } else {
+            formStatus.textContent = cfg.errorMessage || json.error || 'Something went wrong. Please try again.';
+            btn.disabled = false;
+            btn.textContent = cfg.submitLabel || 'Send Message';
+          }
+        } catch {
+          formStatus.textContent = cfg.errorMessage || 'Network error. Please try again.';
+          btn.disabled = false;
+          btn.textContent = cfg.submitLabel || 'Send Message';
+        }
+      });
+    }
+
+    // Intersection observer for fade-in
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.section, .contact-section, .trust-bar').forEach(el => io.observe(el));
+  </script>
 </body>
 </html>

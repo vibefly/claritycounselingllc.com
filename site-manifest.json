@@ -1,0 +1,11 @@
+{
+  "editable_files": {
+    "htdocs/content.json": "All site content — therapist bio, services, approach, testimonials, contact info, hours",
+    "htdocs/styles.css": "All styles with CSS custom properties for theming — colors, fonts, spacing"
+  },
+  "protected_files": [
+    "htdocs/index.html",
+    "src/worker.js",
+    "coming-soon.html"
+  ]
+}
