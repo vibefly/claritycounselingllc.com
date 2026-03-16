@@ -4,32 +4,50 @@
     "description": "Individual, couples, and family therapy in a calm, confidential setting. Book your free 15-minute consultation today."
   },
   "theme": {
-    "bg":                "#FAF9F7",
-    "bgAlt":             "#F2EEE9",
-    "bgDark":            "#2C2825",
-    "accentPrimary":     "#7C6E64",
-    "accentSecondary":   "#B5A89A",
-    "accentLight":       "#EDE6DE",
-    "textPrimary":       "#2C2825",
-    "textSecondary":     "#7C6E64",
-    "heroStart":         "#FAF9F7",
-    "heroMid":           "#F5F0EA",
-    "heroEnd":           "#EDE6DE",
-    "star":              "#C8A96E",
-    "borderCard":        "#E8E1D9",
-    "borderCardHover":   "#B5A89A"
+    "bg": "#FAF9F7",
+    "bgAlt": "#F2EEE9",
+    "bgDark": "#2C2825",
+    "accentPrimary": "#7C6E64",
+    "accentSecondary": "#B5A89A",
+    "accentLight": "#EDE6DE",
+    "textPrimary": "#2C2825",
+    "textSecondary": "#7C6E64",
+    "heroStart": "#FAF9F7",
+    "heroMid": "#F5F0EA",
+    "heroEnd": "#EDE6DE",
+    "star": "#C8A96E",
+    "borderCard": "#E8E1D9",
+    "borderCardHover": "#B5A89A"
   },
   "logo": {
     "name": "Serene",
     "tld": ".mind"
   },
   "nav": [
-    { "label": "Home",         "href": "#home" },
-    { "label": "About",        "href": "#about" },
-    { "label": "Services",     "href": "#services" },
-    { "label": "Approach",     "href": "#approach" },
-    { "label": "Testimonials", "href": "#testimonials" },
-    { "label": "Contact",      "href": "#contact" }
+    {
+      "label": "Home",
+      "href": "#home"
+    },
+    {
+      "label": "About",
+      "href": "#about"
+    },
+    {
+      "label": "Services",
+      "href": "#services"
+    },
+    {
+      "label": "Approach",
+      "href": "#approach"
+    },
+    {
+      "label": "Testimonials",
+      "href": "#testimonials"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact"
+    }
   ],
   "business": {
     "name": "Serene Mind Therapy",
@@ -220,13 +238,34 @@
         "placeholder": "Select a service…",
         "required": true,
         "options": [
-          { "value": "individual",  "label": "Individual Therapy" },
-          { "value": "couples",     "label": "Couples Therapy" },
-          { "value": "family",      "label": "Family Therapy" },
-          { "value": "emdr",        "label": "EMDR & Trauma" },
-          { "value": "anxiety",     "label": "Anxiety & Depression" },
-          { "value": "mindfulness", "label": "Mindfulness-Based Therapy" },
-          { "value": "unsure",      "label": "Not Sure Yet" }
+          {
+            "value": "individual",
+            "label": "Individual Therapy"
+          },
+          {
+            "value": "couples",
+            "label": "Couples Therapy"
+          },
+          {
+            "value": "family",
+            "label": "Family Therapy"
+          },
+          {
+            "value": "emdr",
+            "label": "EMDR & Trauma"
+          },
+          {
+            "value": "anxiety",
+            "label": "Anxiety & Depression"
+          },
+          {
+            "value": "mindfulness",
+            "label": "Mindfulness-Based Therapy"
+          },
+          {
+            "value": "unsure",
+            "label": "Not Sure Yet"
+          }
         ]
       },
       {
@@ -239,7 +278,7 @@
       }
     ],
     "submitLabel": "Send My Request",
-    "turnstileSiteKey": "",
+    "turnstileSiteKey": "0x4AAAAAACrb10B-KlySQEvC",
     "statusMessages": [],
     "deliveredMessage": "Message delivered successfully.",
     "thankYouHeading": "Thank You for Reaching Out",
