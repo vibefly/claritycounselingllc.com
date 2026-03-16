@@ -1,20 +1,20 @@
 /* ─── CSS Custom Properties ──────────────────────────────────────────────── */
 :root {
   /* Theme colors from content.json */
-  --bg:                 #FAF9F7;
-  --bg-alt:             #F2EEE9;
-  --bg-dark:            #2C2825;
-  --accent-primary:     #7C6E64;
-  --accent-secondary:   #B5A89A;
-  --accent-light:       #EDE6DE;
-  --text-primary:       #2C2825;
-  --text-secondary:     #7C6E64;
-  --hero-start:         #FAF9F7;
-  --hero-mid:           #F5F0EA;
-  --hero-end:           #EDE6DE;
-  --color-star:         #C8A96E;
-  --border-card:        #E8E1D9;
-  --border-card-hover:  #B5A89A;
+  --bg:                 #FFFFFF;
+  --bg-alt:             #F5F8FC;
+  --bg-dark:            #1a3a5c;
+  --accent-primary:     #4A90D9;
+  --accent-secondary:   #4A90D9;
+  --accent-light:       #E8F1F9;
+  --text-primary:       #1a3a5c;
+  --text-secondary:     #5A6C7D;
+  --hero-start:         #1a3a5c;
+  --hero-mid:           #2A4A6C;
+  --hero-end:           #4A90D9;
+  --color-star:         #F59E0B;
+  --border-card:        #D4E3F7;
+  --border-card-hover:  #4A90D9;
 
   /* Typography */
   --font-serif:   'Cormorant Garamond', Georgia, serif;
@@ -35,9 +35,9 @@
   --transition: 0.25s ease;
 
   /* Shadows */
-  --shadow-card:   0 2px 16px rgba(44,40,37,0.07);
-  --shadow-hover:  0 8px 32px rgba(44,40,37,0.12);
-  --shadow-header: 0 2px 20px rgba(44,40,37,0.08);
+  --shadow-card:   0 2px 16px rgba(26,58,92,0.08);
+  --shadow-hover:  0 8px 32px rgba(26,58,92,0.14);
+  --shadow-header: 0 2px 20px rgba(26,58,92,0.08);
 }
 
 /* ─── Reset ──────────────────────────────────────────────────────────────── */
@@ -139,7 +139,7 @@ h3 { font-size: clamp(1.2rem, 2vw, 1.5rem); }
 .btn--primary:hover {
   background: var(--bg-dark);
   transform: translateY(-1px);
-  box-shadow: 0 6px 20px rgba(44,40,37,0.18);
+  box-shadow: 0 6px 20px rgba(26,58,92,0.18);
 }
 
 .btn--ghost {
@@ -160,7 +160,7 @@ h3 { font-size: clamp(1.2rem, 2vw, 1.5rem); }
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(250,249,247,0.92);
+  background: rgba(255,255,255,0.92);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid transparent;
@@ -276,7 +276,7 @@ h3 { font-size: clamp(1.2rem, 2vw, 1.5rem); }
 .mobile-drawer__overlay {
   position: fixed;
   inset: 0;
-  background: rgba(44,40,37,0.4);
+  background: rgba(26,58,92,0.4);
   z-index: 199;
   opacity: 0;
   pointer-events: none;
@@ -334,8 +334,8 @@ h3 { font-size: clamp(1.2rem, 2vw, 1.5rem); }
   font-weight: 600;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--accent-primary);
-  background: rgba(124,110,100,0.1);
+  color: #fff;
+  background: rgba(255,255,255,0.2);
   padding: 0.45rem 1rem;
   border-radius: 100px;
   margin-bottom: 1.25rem;
@@ -345,19 +345,19 @@ h3 { font-size: clamp(1.2rem, 2vw, 1.5rem); }
   font-family: var(--font-serif);
   font-size: clamp(2.8rem, 5.5vw, 4.4rem);
   font-weight: 300;
-  color: var(--text-primary);
+  color: #fff;
   line-height: 1.1;
   margin-bottom: 1.25rem;
 }
 
 .hero__title em {
   font-style: italic;
-  color: var(--accent-primary);
+  color: #fff;
 }
 
 .hero__subtext {
   font-size: 1.05rem;
-  color: var(--text-secondary);
+  color: rgba(255,255,255,0.85);
   line-height: 1.85;
   margin-bottom: 2rem;
   max-width: 440px;
@@ -393,7 +393,7 @@ h3 { font-size: clamp(1.2rem, 2vw, 1.5rem); }
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgba(255,255,255,0.6);
+  color: rgba(26,58,92,0.3);
 }
 .hero__image-placeholder i { opacity: 0.5; }
 
@@ -732,7 +732,7 @@ h3 { font-size: clamp(1.2rem, 2vw, 1.5rem); }
 .contact-form textarea:focus,
 .contact-form select:focus {
   border-color: var(--accent-primary);
-  box-shadow: 0 0 0 3px rgba(124,110,100,0.12);
+  box-shadow: 0 0 0 3px rgba(74,144,217,0.12);
   outline: none;
 }
 .contact-form input::placeholder,
