@@ -1,0 +1,296 @@
+{
+  "meta": {
+    "title": "Clarity Counseling LLC | Licensed Professional Counselor",
+    "description": "Individual, couples, and family therapy in Cheshire, CT. Lori McWeeney, LPC, offers compassionate mental health counseling for children, adolescents, and adults. Book your consultation today."
+  },
+  "theme": {
+    "bg": "#FFFFFF",
+    "bgAlt": "#F5F8FC",
+    "bgDark": "#1a3a5c",
+    "accentPrimary": "#4A90D9",
+    "accentSecondary": "#4A90D9",
+    "accentLight": "#E8F1F9",
+    "textPrimary": "#1a3a5c",
+    "textSecondary": "#5A6C7D",
+    "heroStart": "#1a3a5c",
+    "heroMid": "#2A4A6C",
+    "heroEnd": "#4A90D9",
+    "star": "#F59E0B",
+    "borderCard": "#D4E3F7",
+    "borderCardHover": "#4A90D9"
+  },
+  "logo": {
+    "name": "Clarity",
+    "tld": ".counseling"
+  },
+  "nav": [
+    {
+      "label": "Home",
+      "href": "#home"
+    },
+    {
+      "label": "About",
+      "href": "#about"
+    },
+    {
+      "label": "Services",
+      "href": "#services"
+    },
+    {
+      "label": "Approach",
+      "href": "#approach"
+    },
+    {
+      "label": "Testimonials",
+      "href": "#testimonials"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact"
+    }
+  ],
+  "business": {
+    "name": "Clarity Counseling LLC",
+    "phone": "(203) 651-8604",
+    "phoneHref": "tel:+12036518604",
+    "email": "lori@claritycounselingllc.com",
+    "address": "420 Highland Avenue, Suite B1, Cheshire, CT 06410",
+    "year": "2012"
+  },
+  "hero": {
+    "label": "Licensed Professional Counselor · LPC",
+    "title": "Clarity & Compassion on Your Path to Wellness",
+    "subtext": "Therapy is a safe, non-judgmental space where you can explore your thoughts, feelings, and challenges. I work with children, adolescents, and adults to provide personalized counseling that meets you where you are.",
+    "ctaText": "Schedule a Consultation",
+    "ctaHref": "#contact",
+    "ctaSecondaryText": "Learn My Story",
+    "ctaSecondaryHref": "#about"
+  },
+  "pages": {
+    "home": {
+      "sections": [
+        {
+          "id": "about",
+          "label": "About Lori",
+          "heading": "Hi, I'm Lori McWeeney, LPC",
+          "subheading": "With over a decade of experience providing compassionate mental health counseling, I specialize in helping children, adolescents, families, and adults navigate life's challenges with clarity and confidence.",
+          "items": [
+            {
+              "icon": "graduation-cap",
+              "title": "Education & Credentials",
+              "text": "Master of Science in Clinical Mental Health Counseling · Licensed Professional Counselor (LPC) · Certified in evidence-based therapeutic practices"
+            },
+            {
+              "icon": "heart",
+              "title": "My Philosophy",
+              "text": "I believe every person deserves a safe, non-judgmental space to explore their thoughts and emotions. My role is to support you with compassion, respect, and genuine care as you work toward your goals."
+            },
+            {
+              "icon": "users",
+              "title": "Who I Work With",
+              "text": "Children, adolescents, adults, families, and couples navigating anxiety, depression, behavioral challenges, family conflict, relationship difficulties, and major life transitions."
+            },
+            {
+              "icon": "map-pin",
+              "title": "Based in Cheshire, CT",
+              "text": "In-person sessions at my office in Cheshire and the surrounding communities. I've been serving the Cheshire area and neighboring towns with dedicated, personalized care since 2012."
+            }
+          ]
+        },
+        {
+          "id": "services",
+          "label": "Services",
+          "heading": "How I Can Help",
+          "subheading": "A range of therapeutic services designed to meet your unique needs and support your emotional growth.",
+          "items": [
+            {
+              "icon": "user",
+              "title": "Individual Therapy",
+              "text": "One-on-one counseling for children, adolescents, and adults working through anxiety, depression, behavioral challenges, trauma, and personal growth."
+            },
+            {
+              "icon": "users",
+              "title": "Family Therapy",
+              "text": "Support for families experiencing conflict, adjustment to change, communication difficulties, and strengthening family bonds in a safe, collaborative environment."
+            },
+            {
+              "icon": "heart",
+              "title": "Couples Therapy",
+              "text": "Work with your partner to improve communication, rebuild trust, resolve conflict, and create a stronger, more connected relationship."
+            },
+            {
+              "icon": "lightbulb",
+              "title": "Adolescent Counseling",
+              "text": "Specialized support for teens navigating school stress, peer relationships, identity questions, anxiety, and the challenges of growing up."
+            },
+            {
+              "icon": "leaf",
+              "title": "Behavioral & Emotional Support",
+              "text": "Evidence-based approaches to address behavioral challenges, emotional regulation, stress management, and skill-building for greater resilience."
+            },
+            {
+              "icon": "sparkles",
+              "title": "Life Transitions & Coping",
+              "text": "Guidance through major life changes—loss, divorce, relocation, major decisions—to help you adjust and move forward with confidence."
+            }
+          ]
+        },
+        {
+          "id": "approach",
+          "label": "My Approach",
+          "heading": "Evidence-Based, Person-Centered Care",
+          "subheading": "I combine proven therapeutic techniques with warmth and genuine connection to support your unique journey.",
+          "items": [
+            {
+              "icon": "lightbulb",
+              "title": "Cognitive Behavioral Therapy (CBT)",
+              "text": "Identify thought patterns and behaviors that may be holding you back, and develop practical strategies to shift toward healthier, more positive responses."
+            },
+            {
+              "icon": "users",
+              "title": "Family Systems Approach",
+              "text": "Understand dynamics within your family and work together to improve communication, set healthy boundaries, and strengthen relationships."
+            },
+            {
+              "icon": "leaf",
+              "title": "Mindfulness & Coping Skills",
+              "text": "Build practical tools for emotional regulation, stress management, and self-care to support your well-being every day."
+            },
+            {
+              "icon": "handshake",
+              "title": "Collaborative & Compassionate",
+              "text": "Your voice matters. I listen carefully, honor your perspective, and work with you as a partner in creating meaningful change."
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "label": "Client Stories",
+          "heading": "Words From Those I've Worked With",
+          "subheading": "The real impact of therapy is reflected in the experiences and growth of the people I'm honored to serve.",
+          "items": [
+            {
+              "quote": "Lori has been a wonderful support for our family. She helped us communicate better and understand each other. We're so grateful for her kindness and expertise.",
+              "author": "The Martin Family",
+              "role": "Family Therapy Clients",
+              "stars": 5
+            },
+            {
+              "quote": "I was struggling with anxiety and didn't know where to turn. Lori gave me tools and confidence to manage my worries. She truly cares about her clients.",
+              "author": "Sarah T.",
+              "role": "Individual Therapy Client",
+              "stars": 5
+            },
+            {
+              "quote": "Working with Lori was transformative. She provided a safe space where I felt heard and supported. I've made real progress in my life because of her.",
+              "author": "Michael P.",
+              "role": "Couples Therapy Client",
+              "stars": 5
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contact": {
+    "heading": "Get In Touch",
+    "subheading": "Ready to Take the First Step?",
+    "hours": [
+      "Monday – Friday: 9:00 AM – 5:00 PM",
+      "Saturday: By appointment",
+      "Sunday: Closed"
+    ],
+    "serviceAreas": [
+      "Cheshire, CT",
+      "Wallingford",
+      "Durham",
+      "Berlin",
+      "Middletown",
+      "And surrounding towns"
+    ]
+  },
+  "form": {
+    "fields": [
+      {
+        "type": "text",
+        "name": "name",
+        "label": "Full Name",
+        "placeholder": "Your full name",
+        "required": true
+      },
+      {
+        "type": "email",
+        "name": "email",
+        "label": "Email Address",
+        "placeholder": "you@example.com",
+        "required": true
+      },
+      {
+        "type": "tel",
+        "name": "phone",
+        "label": "Phone Number",
+        "placeholder": "(203) 000-0000",
+        "required": false
+      },
+      {
+        "type": "select",
+        "name": "service",
+        "label": "I'm Interested In",
+        "placeholder": "Select a service…",
+        "required": true,
+        "options": [
+          {
+            "value": "individual",
+            "label": "Individual Therapy"
+          },
+          {
+            "value": "family",
+            "label": "Family Therapy"
+          },
+          {
+            "value": "couples",
+            "label": "Couples Therapy"
+          },
+          {
+            "value": "adolescent",
+            "label": "Adolescent Counseling"
+          },
+          {
+            "value": "behavioral",
+            "label": "Behavioral & Emotional Support"
+          },
+          {
+            "value": "transitions",
+            "label": "Life Transitions & Coping"
+          },
+          {
+            "value": "unsure",
+            "label": "Not Sure Yet"
+          }
+        ]
+      },
+      {
+        "type": "textarea",
+        "name": "message",
+        "label": "What Brings You Here?",
+        "placeholder": "Share as much or as little as you're comfortable with…",
+        "required": false,
+        "rows": 4
+      }
+    ],
+    "submitLabel": "Send My Request",
+    "turnstileSiteKey": "0x4AAAAAACrb10B-KlySQEvC",
+    "statusMessages": [],
+    "deliveredMessage": "Message delivered successfully.",
+    "thankYouHeading": "Thank You for Reaching Out",
+    "thankYouMessage": "Your message has been received. I'll be in touch within one business day to discuss how I can support you.",
+    "thankYouSubtext": "In the meantime, feel free to call or email if you have any questions.",
+    "errorMessage": "Something went wrong. Please try again or contact me directly at (203) 651-8604."
+  },
+  "footer": {
+    "about": "Compassionate mental health counseling for children, adolescents, and adults in Cheshire, CT. Lori McWeeney, LPC, provides a safe, non-judgmental space for healing and growth.",
+    "copyright": "© 2025 Clarity Counseling LLC. All rights reserved.",
+    "creditName": "",
+    "creditUrl": ""
+  }
+}
